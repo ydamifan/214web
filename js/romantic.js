@@ -5,8 +5,13 @@
 		Email: geekclouds@163.com;
 	*/
     $("#curs").click(function(){
-        var str = '「娇儿」，我喜欢你\n';
-        str += '这是我们在一起的第三个情人节\n';
+        var str = '「娇儿」，我们在一起已经3年了\n';
+        str += '我也不会说什么情话\n';
+        str += '我只想说\n';
+        str +='感谢时光，不偏不倚\n'
+        str +='躲过了风口浪尖，让我恰好遇见你\n'
+        str +='希望我们的未来一直\n'
+        str +='to be continued...'
         Printer.init(str, {
             //speed: 90,  //文字速度
             selector: 'canvas',
